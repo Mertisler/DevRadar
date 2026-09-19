@@ -21,8 +21,6 @@ data class ArticleDto(
     val user: UserDto // Yazar bilgisi ayrı bir JSON objesi olduğu için iç içe sınıf kullanıyoruz
 )
 
-// data/remote/dto/UserDto.kt
-
 // Makaleyi yazan kullanıcının bilgilerini temsil eder
 data class UserDto(
     @SerializedName("name")
